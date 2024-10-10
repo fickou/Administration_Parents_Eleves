@@ -27,4 +27,4 @@ La **Plateforme de Mise en Relation Administration-Parents d'Élèves** est un s
 
 1. Clonez le dépôt sur votre machine locale :
    ```bash
-   git clone https://github.com/votre-utilisateur/nom-du-repo.git
+   git clone https://github.com/fickou/Administration_Parents_Eleves.git
