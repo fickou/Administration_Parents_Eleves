@@ -85,7 +85,7 @@
         footer a {
             color: #fff;
             text-decoration: none;
-            margin: 0 10px;
+            
         }
         footer a:hover {
             text-decoration: underline;
@@ -100,7 +100,9 @@
 
         @media screen and (max-width: 800px) {
             .container {
+                width: 100%;
                 display: block;
+                flex-direction: column;
             }
             .div1, .div2{
                 width: 100%;
@@ -110,8 +112,13 @@
                 padding-top: 5px;
             }
             footer{
+                padding: 0px;
+                width: 100%;
                 margin-top: 200px;
             }
+            footer a {
+            margin: 0 0;
+        }
         }
     </style>
 </head>
@@ -123,7 +130,7 @@
             </div>
             <h1>C'est votre première fois ici ?</h1>
             <p>Cliquez sur le bouton s'inscrire</p>
-            <button><a href="view/administration/index.php">S'INSCRIRE</a></button>
+            <button><a href="view/administration/index.html">S'INSCRIRE</a></button>
         </div>
         <div class="div2">
             <div class="login">
