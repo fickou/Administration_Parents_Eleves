@@ -72,12 +72,13 @@
         @media screen and (max-width: 800px) {
             .container {
                 display: block;
+                flex-direction: column;
             }
             .div1, .div2{
                 width: 100%;
             }
             .div1{
-                padding: 100px;
+                padding: 80px;
                 padding-top: 5px;
             }
         }
@@ -90,9 +91,9 @@
                 <img src="../../images/MonLogo.png" alt="Mon logo" class="logo">
             </div>
             <h1>Ou bien ...</h1>
-            <p>Cliquez sur l'un des boutons</p>
-            <div class="element">
-                <button><a href="../../index.html">SE CONNECTER</a></button>
+            <p style="margin-bottom: 10px; margin-top: -15px;">Cliquez sur l'un des boutons</p>
+            <div class="element" style="margin-bottom: 50px; display: flex;">
+                <button style="margin-left: -100px; margin-right: 50px;"><a href="../../index.html">SE CONNECTER</a></button>
                 <button><a href="../administration/index.php">S'INSCRIRE</a></button>
             </div>
         </div>
